@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+main {
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.row {
+  padding: 20px;
+}
+.card {
+  display: inline-block;
+  position: relative;
+  text-align: start;
+}
+.heart {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: hsl(0, 0%, 41%);
+  background-color: hsl(0, 0%, 81%);
+  padding: 0px 5px;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.card-content {
+  position: relative;
+}
+.card-img {
+  background-image: url(./imgs/bailey/bailey_washed_suede_tobacco_side.jpg);
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+}
+.card-img:hover {
+  background-image: url(./imgs/bailey/bailey_washed_suede_tobacco_oh.jpg);
+}
+
+.card-img-2 {
+  background-image: url(./imgs/battle/battle_brown_side.jpg);
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+}
+.card-img-2:hover {
+  background-image: url(./imgs/battle/battle_brown_top.jpg);
+}
+.card-img-3 {
+  background-image: url(./imgs/cedar/cedar_washed_suede_tan_side.jpg);
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+}
+.card-img-3:hover {
+  background-image: url(./imgs/cedar/cedar_washed_suede_tan_oh.jpg);
+}
+
+.card-img-4 {
+  background-image: url(./imgs/craighouse/craighouse_leather_tan_side.jpg);
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+}
+.card-img-4:hover {
+  background-image: url(./imgs/craighouse/craighouse_leather_tan_oh.jpg);
+}
+.card-img-5 {
+  background-image: url(./imgs/dylan-drum/dylan_drum_dye_brown_side.jpg);
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+}
+.card-img-5:hover {
+  background-image: url(./imgs/dylan-drum/dylan_drum_dye_brown_oh.jpg);
+}
+
+.card-img-6 {
+  background-image: url(./imgs/marley/marley_washed_suede_cognac_side.jpg);
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+}
+.card-img-6:hover {
+  background-image: url(./imgs/marley/marley_washed_suede_cognac_oh.jpg);
+}
+.card-tag {
+  margin-bottom: 15px;
+}
+.tag {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 4px 8px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 10px;
+  display: inline-block;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.eco {
+  background-color: green;
+  left: 40px;
+}
+
+h4 {
+  font-size: 12px;
+}
+
+h2 {
+  font-size: 14px;
+  font-weight: 700;
+}
+.price-container {
+  line-height: 8px;
+}
+.price {
+  font-size: 10px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.color-red {
+  color: red;
+}
+.line-through {
+  text-decoration: line-through;
+}
